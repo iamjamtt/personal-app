@@ -103,7 +103,7 @@
                                             </th>
                                             <td class="px-6 py-4">
                                                 <span class="font-semibold">
-                                                    S/. {{ $detalle_gasto->sum('monto') }}
+                                                    S/. {{ number_format($detalle_gasto->sum('monto'),2) }}
                                                 </span>
                                             </td>
                                         </tr>
