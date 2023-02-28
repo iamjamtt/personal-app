@@ -56,8 +56,8 @@ class Edit extends Component
             'apellido_paterno' => 'required|min:3',
             'apellido_materno' => 'required|min:3',
             'email' => 'required|email',
-            'photo' => 'nullable|image|max:2048|mimes:jpg,jpeg,png',
-            'portada' => 'nullable|image|max:2048|mimes:jpg,jpeg,png',
+            'photo' => 'nullable|image|max:5048|mimes:jpg,jpeg,png',
+            'portada' => 'nullable|image|max:10048|mimes:jpg,jpeg,png',
         ]);
     }
 
@@ -70,8 +70,8 @@ class Edit extends Component
             'apellido_materno' => 'required|min:3',
             'email' => 'required|email',
             'password' => 'nullable|min:6',
-            'photo' => 'nullable|image|max:2048|mimes:jpg,jpeg,png',
-            'portada' => 'nullable|image|max:2048|mimes:jpg,jpeg,png',
+            'photo' => 'nullable|image|max:5048|mimes:jpg,jpeg,png',
+            'portada' => 'nullable|image|max:10048|mimes:jpg,jpeg,png',
         ]);
 
         // Update user data in database
