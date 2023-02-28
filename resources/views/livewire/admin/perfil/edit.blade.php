@@ -1,4 +1,4 @@
-<div>
+<div class="pb-16">
     <div class="bg-white dark:bg-gray-800 shadow relative z-10">
         <div class="px-4 py-2 max-w-7xl m-auto">
             <div class="flex justify-between items-center">
