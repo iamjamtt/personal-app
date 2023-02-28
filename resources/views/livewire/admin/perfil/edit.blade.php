@@ -88,7 +88,7 @@
                                 <input type="file" wire:model="photo" id="photo" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-600 focus:border-yellow-600 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-yellow-500 dark:focus:border-yellow-500" accept="image/jpeg,image/png,image/jpg">
                                 <div>
                                     <span class="text-gray-500 text-xs dark:text-gray-400">
-                                        PNG, JPG, JPEG máximo de 2MB
+                                        PNG, JPG, JPEG máximo de 5MB
                                     </span>
                                 </div>
                                 @error('photo')
@@ -101,7 +101,7 @@
                                 <input type="file" wire:model="portada" id="portada" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-600 focus:border-yellow-600 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-yellow-500 dark:focus:border-yellow-500" accept="image/jpeg,image/png,image/jpg">
                                 <div>
                                     <span class="text-gray-500 text-xs dark:text-gray-400">
-                                        PNG, JPG, JPEG máximo de 2MB
+                                        PNG, JPG, JPEG máximo de 10MB
                                     </span>
                                 </div>
                                 @error('portada')
